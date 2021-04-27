@@ -55,9 +55,9 @@ social:
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: media/resume.pdf
+ - icon: cv
+   icon_pack: ai
+   link: media/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -66,6 +66,6 @@ email: ""
 highlight_name: false
 ---
 
-My name is Parker, and I'm an incoming PhD student in the Dartmouth College Department of Computer Science. My research interests include machine learning and natural language processing. I currently work as a competitive programming instructor at Juni Learning, and as a private statistics tutor.
+My name is Parker, and I'm an incoming PhD student in the Dartmouth College Department of Computer Science. My research interests include machine learning and natural language processing. I currently work as a Competitive Programming Instructor at Juni Learning, and as a private statistics tutor.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
