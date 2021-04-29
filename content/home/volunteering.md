@@ -25,7 +25,6 @@ experience:
   - title: Refugee Youth Mentor
     company: Catholic Community Services of Utah
     company_url: 'https://www.ccsutah.org/'
-    # FIXME did this work? -> NO
     # company_logo: ccsu-logo
     location: Utah
     date_start: '2019-06-01'
@@ -37,7 +36,6 @@ experience:
   - title: ESL Elementary School Reading Tutor
     company: Granite School District
     company_url: 'https://www.graniteschools.org/communications/volunteer/'
-    # FIXME did this work?
     # company_logo: gsu-logo
     location: Utah
     date_start: '2018-07-01'
