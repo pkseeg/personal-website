@@ -38,4 +38,8 @@ categories:
 - Personal
 ---
 
-I started competing in programming competitions about a year ago, right around when the pandemic forced us all into quarantine.
+I started competing in programming competitions about a year ago, right around when the pandemic forced us all into quarantine. Since then I've competed in dozens of competitions, I've helped found and run the [BYU Competitive Programming Club](https://cpc.byu.edu/), and I've even started tutoring high school competitive programmers through [Juni Learning](https://junilearning.com/). It has all been incredibly rewarding.
+
+Many people misunderstand what competitive programming actually is, if they've heard of it at all. It isn't hacking. It doesn't require 6 monitors or sunglasses or a cool colorful keyboard.
+
+{{< figure src="featured.png" title="Trying to see a local png file" >}}

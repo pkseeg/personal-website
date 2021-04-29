@@ -47,7 +47,16 @@ slides:
 - Filled null BPM values (never debuted) at the 5th percentile
 - Scores were not very predictive on their own
   - Added a projection percentile to my analysis
-  |                   RMSE                  |
+  |             |      RMSE   |             |
   | Sentiment   | Usage       | Topic       |
   | ----------- | ----------- | ----------- |
   | 3.14        | 3.64        | 4.26        |
+
+---
+
+## Next Steps
+
+- Determine helpfulness of scores when used in other draft models
+- Obtain all NBA player data
+  - Initially focused on current draft prospects
+- Add similarity portion to projections tab
