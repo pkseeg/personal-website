@@ -29,7 +29,7 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: nba-prospect-twitter-slides
 ---
 
 Social media, especially personal social media accounts, offers us a glimpse into individual personality. The goal of this project was to leverage personality insights gleaned from NBA prospects' twitter accounts as part of the scouting process. In other words, this project answers two main questions.
