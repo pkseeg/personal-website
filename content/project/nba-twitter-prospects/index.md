@@ -14,11 +14,11 @@ image:
   caption: Photo of the NBA project
   focal_point: Smart
 
-links: ""
-#- icon: twitter
-#  icon_pack: fab
-#  name: Follow
-#  url: https://twitter.com/georgecushen
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://parkerseeg.shinyapps.io/nba-twitter-prospect-analysis/
 url_code: ""
 url_pdf: ""
 url_slides: ""
