@@ -43,3 +43,18 @@ I started competing in programming competitions about a year ago, right around w
 Many people misunderstand what competitive programming actually is, if they've heard of it at all. It isn't hacking. It doesn't require 6 monitors or sunglasses or a cool colorful keyboard.
 
 {{< youtube HluANRwPyNo >}}
+
+Competitive programming is all about **_algorithms_**. An algorithm is just a set of rules to be followed in a problem-solving operation. A typical programming competition is essentially just "see who can write a fast enough, correct algorithm the fastest.""
+
+In a competition you're given a set of problems like this one.
+{{< figure src="problem-description.png" title="Example problem description." >}}
+
+And then you're given input like this, normally through standard input.
+{{< figure src="problem-inputs.png" title="Example problem input." >}}
+
+And you're asked to produce output like this, normally through standard output.
+{{< figure src="problem-outputs.png" title="Example problem output." >}}
+
+And that's it! Our team at BYU typically uses [kattis](https://open.kattis.com/) to practice. The problem that we just looked at was [here](https://open.kattis.com/problems/flyingsafely)!
+
+Anyway, [ICPC](https://icpc.global/) is an international collegiate programming competition where students compete in teams of 3. It starts in regions, with our team at BYU in the North America Rocky Mountain region. We competed against teams from schools like the University of Alberta, the University of Utah, the University of Lethbridge, etc. We took 2nd place in the 5 hour competition and were one of 8 teams to advance to the divisional round, where we placed 22nd overall against a talented pool of teams from the Western region of North America! Pretty proud of our team!
