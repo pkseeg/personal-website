@@ -42,6 +42,4 @@ I started competing in programming competitions about a year ago, right around w
 
 Many people misunderstand what competitive programming actually is, if they've heard of it at all. It isn't hacking. It doesn't require 6 monitors or sunglasses or a cool colorful keyboard.
 
-
-{{ <iframe width="560" height="315" src="https://www.youtube.com/embed/HluANRwPyNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> }}
-#{{< figure src="featured.png" title="Trying to see a local png file" >}}
+{{< youtube HluANRwPyNo >}}
