@@ -44,6 +44,7 @@ Many people misunderstand what competitive programming actually is, if they've h
 
 {{< youtube HluANRwPyNo >}}
 
+
 Competitive programming is all about **_algorithms_**. An algorithm is just a set of rules to be followed in a problem-solving operation. A typical programming competition is essentially just "see who can write a fast enough, correct algorithm the fastest.""
 
 In a competition you're given a set of problems like this one.
