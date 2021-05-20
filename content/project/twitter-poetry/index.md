@@ -2,8 +2,8 @@
 title: Twitter Writes Poetry
 summary: I trained a character-sequence RNN deep learning model to write poetry based on famous English poets. I then used the twitter API to build a feedback loop between my poetry model and twitter, so essentially twitter (geolocated in the USA) was writing poetry.
 tags:
-- Deep Learning
-- Natural Language Processing
+- Machine Learning
+- NLP
 - Natural Language Generation
 - Twitter
 - Poetry
