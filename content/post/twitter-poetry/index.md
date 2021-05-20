@@ -76,6 +76,7 @@ And, _voila_. Twitter writes poems.
 Here are a couple poems written by the system. I just chose lines from the poems for titles. Can you tell where the twitter strings are incorporated?
 
 ### That tower ###
+```
 And in a think own never give my love from a room.--That tower
 And ends of link, I man, Finds, follow's, what only.
 And how spring, and district thought not how genes,
@@ -83,8 +84,9 @@ To Feature, and thinks engine;
 So the years and his betting hill
 To be us thy which works and singer;
 Where frames thing in the blood.
-
+```
 ### Congratulations ###
+```
 An' his could printed that the thinks airs,
 Had (the turn name low the from the Horns:
 And the chow'd we main turned any.
@@ -97,6 +99,7 @@ This should apperious bank anthight the.
 The Next, dead her mouthed the help contest her come and been wilt be,
 And fire points his Ole of anchor its love,
 And the round mars to Snake the world me many his are.
+```
 
 ## Thoughts ##
 The poems are not good, but I was pleasantly surprised at how many words came out in English given the obvious limitations of the simple RNN. Some of the lines _feel_ poetic, too, even if the 'thoughts' aren't fully formed - "Where frames thing in the blood."
