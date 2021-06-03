@@ -13,6 +13,9 @@ main:
   - name: Projects
     url: '#projects'
     weight: 30
+  - name: Album Reviews
+    url: '#albumreviews'
+    weight: 45
 #  - name: Talks
 #    url: '#talks'
 #    weight: 40
