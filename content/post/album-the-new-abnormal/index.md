@@ -32,6 +32,7 @@ authors:
 - admin
 
 tags:
+- albumreview
 
 categories:
 
