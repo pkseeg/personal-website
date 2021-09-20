@@ -22,6 +22,16 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+- title: Teaching Assistant
+  company: Dartmouth College Department of Computer Science
+  company_url: 'https://web.cs.dartmouth.edu/'
+  company_logo: dartmout-logo
+  location: Hanover, New Hampshire
+  date_start: '2021-09-14'
+  date_end: ''
+  description: |2-
+      * Provided assistance in teaching, tutoring, and grading COSC 65/165 Android Programming
+
   - title: Data Science Intern
     company: Aetna, a CVS Health Company
     company_url: 'https://www.aetna.com/'
@@ -74,10 +84,10 @@ experience:
     company_logo: juni-logo
     location: Remote
     date_start: '2019-07-01'
-    date_end: ''
+    date_end: '2021-09-01'
     description: |2-
         * Weekly mentored 20+ students aged 7-18 in Scratch, Python, and Java
-        * Trained 8+ students in common competitive programming algorithms and techniques, helping them to prepare for the USA Computing Olympiad bronze, silver, and gold divisions
+        * Trained 15+ students in common competitive programming algorithms and techniques, helping them to prepare for the USA Computing Olympiad bronze, silver, and gold divisions
 
   - title: Teaching Assistant
     company: BYU Statistics Dept
