@@ -63,6 +63,7 @@ python3 -m pip install --user virtualenv
 python3 -m pip install ipykernel
 python3 -m pip install jupyterlab
 python3 -m pip install pandas
+echo 'pandas' > requirements.txt
 jupyter lab
 ```
 
@@ -146,4 +147,9 @@ important for readability and reproducability.
 
 And voila! Should be working. You have a reproducible, readable, safe python project which you can work on in jupyter lab.
 
-Happy development!
+*Happy development!*
+
+Here are a few sources that I used before I made this post:
+1. [virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+2. [jupyter and venv](https://veekaybee.github.io/2020/02/18/running-jupyter-in-venv/)
+3. [jupyterlab](https://stackoverflow.com/questions/57677481/jupyter-command-jupyter-lab-not-found)
