@@ -23,7 +23,7 @@ featured: true
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Dr. Farrell**](https://faculty.cs.byu.edu/~farrell/)'
+  caption: 'Jupyter Lab running after copy/pasting these steps'
   focal_point: ""
   placement: 2
   preview_only: false
@@ -65,6 +65,7 @@ python3 -m pip install jupyterlab
 python3 -m pip install pandas
 echo 'pandas' > requirements.txt
 jupyter lab
+deactivate
 ```
 
 
@@ -143,6 +144,14 @@ important for readability and reproducability.
 
 ```console
 (env) parker@pkseeg:~/example-project$ jupyter lab
+```
+
+# **9. Remember to deactivate after you're done**
+
+This allows you leave the virtual env.
+
+```console
+(env) parker@pkseeg:~/example-project$ deactivate
 ```
 
 And voila! Should be working. You have a reproducible, readable, safe python project which you can work on in jupyter lab.
