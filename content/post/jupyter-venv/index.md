@@ -53,7 +53,21 @@ about it for my budding little personal website.
 
 Anyway here's how to do it.
 
-## 0. Get venv
+# **-1. Here's all the commands up front, read on for a walkthrough**
+
+```console
+mkdir example-project && cd example-project
+python3 -m venv env
+source env/bin/activate
+python3 -m pip install --user virtualenv
+python3 -m pip install ipykernel
+python3 -m pip install jupyterlab
+python3 -m pip install pandas
+jupyter lab
+```
+
+
+# **0. Get venv**
 
 If you're new to virtual environments generally, make sure you a) 
 [have python installed](https://linuxhint.com/install-python-debian-10/) and b) use the following command to install `virtualenv`.
@@ -62,7 +76,7 @@ If you're new to virtual environments generally, make sure you a)
 parker@pkseeg:~$ python3 -m pip install --user virtualenv
 ```
 
-## 1. Create a project folder and get into it
+# **1. Create a project folder and get into it**
 
 Make sure to rename `example-project` to whatever you want to call your project.
 
@@ -70,7 +84,7 @@ Make sure to rename `example-project` to whatever you want to call your project.
 parker@pkseeg:~$ mkdir example-project && cd example-project
 ```
 
-## 2. Initialize a virtual environment
+# **2. Initialize a virtual environment**
 
 This will initialize a `venv` in your project folder called `env` (you can call it whatever you want, but for me consistency 
 is helpful.
@@ -79,7 +93,7 @@ is helpful.
 parker@pkseeg:~/example-project$ python3 -m venv env
 ```
 
-## 3. Activate your virtual environment
+# **3. Activate your virtual environment**
 
 This is a step you'll have to use every time you work on your project. You can think about it as assigning your python 
 environment to the environment specific to your project. Remember that if you named your folder something other than 
@@ -89,7 +103,7 @@ environment to the environment specific to your project. Remember that if you na
 parker@pkseeg:~/example-project$ source env/bin/activate
 ```
 
-## 4. Install `ipykernel`
+# **4. Install `ipykernel`**
 
 This is important for jupyter lab.
 
@@ -97,10 +111,39 @@ This is important for jupyter lab.
 (env) parker@pkseeg:~/example-project$ python3 -m pip install ipykernel
 ```
 
-## 5. Install `jupyterlab`
+# **5. Install `jupyterlab`**
 
-
+This piece always got lost for me, initially `ipykernel` would include `jupyterlab` but I guess it doesn't anymore.
 
 ```console
-(env) parker@pkseeg:~/example-project$ python3 -m pip install ipykernel
+(env) parker@pkseeg:~/example-project$ python3 -m pip install jupyterlab
 ```
+
+# **6. (OPTIONAL) Install `pandas`, other packages**
+
+This is why `venv` is so powerful - it allows you to keep different versions of packages for different projects. 
+`pandas` isn't a package that will break easily when updated, but you get the idea.
+
+```console
+(env) parker@pkseeg:~/example-project$ python3 -m pip install pandas
+```
+
+# **7. (OPTIONAL) Add packages to `requirements.txt`**
+
+Here you can create a `requirements.txt` file to store all the required library for your project. This is very 
+important for readability and reproducability.
+
+```console
+(env) parker@pkseeg:~/example-project$ touch requirements.txt
+(env) parker@pkseeg:~/example-project$ echo 'pandas' > requirements.txt
+```
+
+# **8. Launch `jupyter lab`**
+
+```console
+(env) parker@pkseeg:~/example-project$ jupyter lab
+```
+
+And voila! Should be working. You have a reproducible, readable, safe python project which you can work on in jupyter lab.
+
+Happy development!
