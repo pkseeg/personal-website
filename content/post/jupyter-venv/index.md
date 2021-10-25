@@ -3,8 +3,7 @@ title: How to use Jupyter Lab and Python Virtual Environments (Ubuntu/Debian)
 subtitle: I got so sick of googling around every time that I decided to just post it here
 
 # Summary for listings and search engines
-summary: How to use Jupyter Lab and Python Virtual Environments simultaneously in an Ubuntu/Debian system for better 
-python package management, better data science project management, and general project reproducibility.
+summary: How to use Jupyter Lab and Python Virtual Environments simultaneously in an Ubuntu/Debian system for better python package management, better data science project management, and general project reproducibility.
 
 # Link this post with a project
 projects: []
