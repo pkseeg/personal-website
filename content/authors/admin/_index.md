@@ -6,7 +6,7 @@ title: M. Parker Seegmiller
 superuser: true
 
 # Role/position/tagline
-role: Computer Science PhD Student
+role: Computer Science PhD Student, Dartmouth College
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,7 +14,7 @@ organizations:
   url: https://web.cs.dartmouth.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include machine learning and natural language processing
+bio: Parker is a CS grad student at Dartmouth College researching ML and NLP
 
 # Interests to show in About widget
 interests:
@@ -26,7 +26,7 @@ education:
   courses:
   - course: PhD in Computer Science
     institution: Dartmouth College
-    year: 2021-2025
+    year: 2021-
   - course: BSc in Statistics
     institution: Brigham Young University
     year: 2017-2021
