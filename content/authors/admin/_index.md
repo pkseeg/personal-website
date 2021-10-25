@@ -67,8 +67,8 @@ highlight_name: false
 ---
 
 My name is Parker, I'm a first year PhD student in the Dartmouth College Department of Computer Science. 
-My research interests include machine learning and natural language processing, particularly in explainable ML systems 
-that leverage natural language to make intelligent decisions. I have a strong history in data science, 
-sports analytics, and teaching. 
+My research interest spans the fields of machine learning and natural language processing, and in particular 
+I aim to develop explainable ML systems that leverage natural language to make intelligent decisions. 
+I have a strong history in data science, sports analytics, and teaching. 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
