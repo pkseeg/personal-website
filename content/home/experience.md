@@ -25,7 +25,7 @@ experience:
   - title: Teaching Assistant
     company: Dartmouth College Department of Computer Science
     company_url: 'https://web.cs.dartmouth.edu/'
-    company_logo: dartmout-logo
+    company_logo: dartmouth-logo
     location: Hanover, New Hampshire
     date_start: '2021-09-14'
     date_end: ''
