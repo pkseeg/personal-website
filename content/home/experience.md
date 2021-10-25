@@ -22,6 +22,17 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Graduate Teaching Assistant
+    company: Dartmouth College Dept of Computer Science
+    company_url: 'https://web.cs.dartmouth.edu'
+    company_logo: dartmouth-logo
+    location: Hanover, New Hampshire
+    date_start: '2021-09-13'
+    date_end: ''
+    description: |2-
+        * CS 65/165 Android Programming (Fall 2021)
+         * Android app development, tutoring, grading
+
   - title: Data Science Intern
     company: Aetna, a CVS Health Company
     company_url: 'https://www.aetna.com/'
