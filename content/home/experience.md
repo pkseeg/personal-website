@@ -22,15 +22,16 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-- title: Teaching Assistant
-  company: Dartmouth College Department of Computer Science
-  company_url: 'https://web.cs.dartmouth.edu/'
-  company_logo: dartmout-logo
-  location: Hanover, New Hampshire
-  date_start: '2021-09-14'
-  date_end: ''
-  description: |2-
-      * Provided assistance in teaching, tutoring, and grading COSC 65/165 Android Programming
+  - title: Teaching Assistant
+    company: Dartmouth College Department of Computer Science
+    company_url: 'https://web.cs.dartmouth.edu/'
+    company_logo: dartmout-logo
+    location: Hanover, New Hampshire
+    date_start: '2021-09-14'
+    date_end: ''
+    description: |2-
+        * Provided assistance in teaching, tutoring, and grading COSC 65/165 Android Programming
+        * I think this is my issue
 
   - title: Data Science Intern
     company: Aetna, a CVS Health Company
