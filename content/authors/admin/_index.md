@@ -6,7 +6,7 @@ title: M. Parker Seegmiller
 superuser: true
 
 # Role/position/tagline
-role: Computer Science PhD Student, Dartmouth College
+role: Computer Science PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -26,7 +26,7 @@ education:
   courses:
   - course: PhD in Computer Science
     institution: Dartmouth College
-    year: 2021-
+    year: 2021-2025
   - course: BSc in Statistics
     institution: Brigham Young University
     year: 2017-2021
@@ -68,4 +68,4 @@ highlight_name: false
 
 My name is Parker, I'm a first year PhD student in the Dartmouth College Department of Computer Science. My research interests include machine learning and natural language processing, particularly in the medical field. I have a strong history in data science and teaching. 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+# {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
