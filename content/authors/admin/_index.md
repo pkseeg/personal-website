@@ -14,7 +14,7 @@ organizations:
   url: https://web.cs.dartmouth.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Parker is a CS grad student at Dartmouth College researching ML and NLP
+bio: cs phd student at Dartmouth College researching ML and NLP
 
 # Interests to show in About widget
 interests:
@@ -66,6 +66,9 @@ email: ""
 highlight_name: false
 ---
 
-My name is Parker, I'm a first year PhD student in the Dartmouth College Department of Computer Science. My research interests include machine learning and natural language processing, particularly in the medical field. I have a strong history in data science and teaching. 
+My name is Parker, I'm a first year PhD student in the Dartmouth College Department of Computer Science. 
+My research interests include machine learning and natural language processing, particularly in explainable ML systems 
+that leverage natural language to make intelligent decisions. I have a strong history in data science, 
+sports analytics, and teaching. 
 
-# {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
