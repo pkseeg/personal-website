@@ -1,5 +1,5 @@
 ---
-title: "Consumtion as Therapy: Individual and Country Factor effects on Stress and Optimism During a Sustained Stressor"
+title: "Identifying the Perceived Severity of Patient-Generated Telemedical Queries Regarding COVID: Developing and Evaluating a Transfer Learning-Based Solution"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -78,4 +78,4 @@ projects: []
 slides: ""
 ---
 
-[Link to Conference Proceedings](https://www.ama.org/wp-content/uploads/2022/03/Winter-Proceedings-Part-1-merged.pdf).
+Find the paper [here](https://medinform.jmir.org/2022/9/e37770).
