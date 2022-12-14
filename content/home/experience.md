@@ -30,8 +30,9 @@ experience:
     date_start: '2021-09-13'
     date_end: ''
     description: |2-
-        * CS 65/165 Android Programming (Fall 2021)
-         * Android app development, tutoring, grading
+        * CS 65/165 Android Programming (Fall 2021, Dr. Xing-Dong Yang)
+        * CS 30 Discrete Mathematics in Computer Science (Winter 2022, Dr. Hsien-Chih Chang)
+        * CS 74/274 Machine Learning and Statistical Data Analysis (Spring 2022, Dr. Sarah Masud Preum)
 
   - title: Data Science Intern
     company: Aetna, a CVS Health Company

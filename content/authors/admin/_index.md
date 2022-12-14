@@ -67,11 +67,11 @@ email: ""
 highlight_name: false
 ---
 
-My name is Parker, I'm a second year PhD student in the Dartmouth College Department of Computer Science. 
-My research interest spans the fields of machine learning and natural language processing, and in particular 
-I aim to develop novel, explainable systems for structuring unstructured natural language data and to produce 
-ML systems that leverage natural language to make intelligent decisions, particularly in healthcare contexts.
+My name is Parker, I'm a second year PhD student in the Dartmouth College Department of Computer Science and an 
+Innovation Program Fellow in the Dartmouth PhD Innovation Program. I do research at the intersection of 
+machine learning, natural language processing and healthcare. I aim to develop and test novel, hybrid 
+neural-structured systems to modernize healthcare.
 
 I have a strong history in data science, sports analytics, and teaching.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+Feel free to reach out. You can also download my {{< staticref "media/resume.pdf" "newtab" >}}current resumé here{{< /staticref >}}.
