@@ -1,6 +1,6 @@
 ---
 # Display name
-title: M. Parker Seegmiller
+title: Parker Seegmiller
 
 # Is this the primary user of the site?
 superuser: true
@@ -14,13 +14,13 @@ organizations:
   url: https://web.cs.dartmouth.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: cs phd student at Dartmouth College developing and testing ML and NLP tools for healthcare
+bio: nlp @ dartmouth college
 
 # Interests to show in About widget
 interests:
-- Machine Learning
-- Natural Language Processing
-- Healthcare
+- nlp
+- statistics
+- machine learning
 
 # Education to show in About widget
 education:
@@ -67,11 +67,9 @@ email: ""
 highlight_name: false
 ---
 
-My name is Parker, I'm a second year PhD student in the Dartmouth College Department of Computer Science and an 
-Innovation Program Fellow in the Dartmouth PhD Innovation Program. I do research at the intersection of 
-machine learning, natural language processing and healthcare. I aim to develop and test novel, hybrid 
-neural-structured systems to modernize healthcare.
+Hi! I’m Parker. I'm a second year PhD student in the [Dartmouth College Department of Computer Science](https://web.cs.dartmouth.edu/) and an Innovation Program Fellow in the [Dartmouth PhD Innovation Program](https://graduate.dartmouth.edu/academics/programs/phd-innovation-program-dartmouth). I do research at the intersection of ML, NLP and healthcare. I aim to develop and evaluate novel, hybrid neural-structured NLP systems to improve healthcare.
 
-I have a strong history in data science, sports analytics, and teaching.
+In addition to my research interests, I have a strong history in data science, sports (basketball/tennis) analytics, and teaching. I also love RPGs and cats.
 
-Feel free to reach out. You can also download my {{< staticref "media/resume.pdf" "newtab" >}}current resumé here{{< /staticref >}}.
+Feel free to reach out (hmu on twitter). You can also download my {{< staticref "media/resume.pdf" "newtab" >}}current resumé here{{< /staticref >}}.
+

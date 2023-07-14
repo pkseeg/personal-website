@@ -1,6 +1,3 @@
 # pkseeg.com
 
-For me for later
-
-UPDATE RESUME -> just replace ~/static/media/resume.pdf
-UPDATE MENU HEADER -> edit ~/config/_default/menu.yaml
+This is my personal website! It's hosted by netlify and built using hugo.
