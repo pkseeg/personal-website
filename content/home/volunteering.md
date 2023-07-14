@@ -22,6 +22,17 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Volunteer
+    company: Upper Valley Humane Society
+    company_url: 'https://uvhs.org/'
+    # company_logo: ccsu-logo
+    location: New Hampshire
+    date_start: '2023-06-01'
+    date_end: ''
+    description: |2-
+        * Walking cute dogs and playing with cute cats once a week. I wish I could share photos! :(
+
+
   - title: Refugee Youth Mentor
     company: Catholic Community Services of Utah
     company_url: 'https://www.ccsutah.org/'
