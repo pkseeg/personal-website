@@ -18,9 +18,12 @@ bio: nlp @ dartmouth college
 
 # Interests to show in About widget
 interests:
-- nlp
-- statistics
-- machine learning
+- NLP
+- Statistics
+- ML
+- Sports Analytics (basketball/tennis/football)
+- Business Management
+- Skyrim
 
 # Education to show in About widget
 education:
@@ -71,5 +74,4 @@ Hi! I’m Parker. I'm a second year PhD student in the [Dartmouth College Depart
 
 In addition to my research interests, I have a strong history in data science, sports (basketball/tennis) analytics, and teaching. I also love RPGs and cats.
 
-Feel free to reach out (hmu on twitter). You can also download my {{< staticref "media/resume.pdf" "newtab" >}}current resumé here{{< /staticref >}}.
-
+Feel free to reach out (hmu on [twitter](https://twitter.com/pkseeg)), or read my latest research on [google scholar](https://scholar.google.com/citations?user=bU_Xi10AAAAJ&hl=en). You can also download my {{< staticref "media/resume.pdf" "newtab" >}}current resumé here{{< /staticref >}}.
