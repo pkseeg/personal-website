@@ -74,4 +74,3 @@ Hi! I’m Parker. I'm a second year PhD student in the [Dartmouth College Depart
 
 In addition to my research interests, I have a strong history in data science, sports (basketball/tennis/football) analytics, and teaching. I also love RPGs and cats.
 
-Feel free to reach out (hmu on [twitter](https://twitter.com/pkseeg)), or read my latest research on [google scholar](https://scholar.google.com/citations?user=bU_Xi10AAAAJ&hl=en). You can also download my {{< staticref "media/resume.pdf" "newtab" >}}current resumé here{{< /staticref >}}.
