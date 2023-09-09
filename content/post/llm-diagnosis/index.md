@@ -43,7 +43,20 @@ With language-based AI on the rise, many are projecting futures in which all sor
 
 In this post I’m going to argue that medical diagnosis is *not* a task which should be entrusted to current language models, despite the simplicity of treating it as a language-to-language task. As someone who has worked in healthcare and studies/writes about language modeling, I’m hoping I have something to add.
 
+(I should mention that my intended audience of this post includes medical professionals, NLP researchers, people in-between and anyone who is interested in the future of AI generally. I don’t assume you have too much of a technical background - hopefully if you have one you’ll forgive me, and find my overview insightful anyway.)
+
+# Part 1: How We Got Here
+
+Generative language modeling is a sequence-to-sequence task in which human language (e.g. a ”prompt”) is taken as input and human language (e.g. a “response”) is given as output. Programs that perform this task are called generative language models (LMs). Existing LMs range in complexity from very simple to very complex.
+
+{{< figure src="model_comparison.png" title="Language models can be simple or complex!" >}}
+
+In the last year, generative language modeling has received wide-spread attention in both [scientific literature](https://arxiv.org/pdf/2303.18223.pdf) and [popular media](https://www.newyorker.com/podcast/political-scene/the-creator-of-chatgpt-on-the-rise-of-artificial-intelligence), largely due to the release of ChatGPT, a chat-oriented anthropomorphic language model which has acheived some pretty stunning results. This model (and others like it) are trained on copious amounts of human-written language, taken from the internet, which is one of the many reasons they can provide human-like responses to various prompts.
+
+The beauty of ChatGPT from a technical perspective is that many difficult tasks can be made easy by expressing them in “plain English.” There have been and will be many tasks in which large language models (LLMs) like ChatGPT acheive state-of-the-art performance, because there are a lot of reasoning tasks which can be easily formalized with human language inputs and human language outputs. These include some medical tasks, including responding to health questions on [social media](https://each.international/wp-content/uploads/2023/05/jamainternal_ayers_2023_oi_230030_1681999216.70842.pdf) and even obtaining a passing grade on a practice versions of the [United States Medical Licensing Examination](https://arxiv.org/pdf/2303.13375.pdf).
+
+
+
 {{< youtube HluANRwPyNo >}}
 
-{{< figure src="problem-description.png" title="Example problem description." >}}
 
