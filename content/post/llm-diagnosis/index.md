@@ -55,7 +55,31 @@ In the last year, generative language modeling has received wide-spread attentio
 
 The beauty of ChatGPT from a technical perspective is that many difficult tasks can be made easy by expressing them in “plain English.” There have been and will be many tasks in which large language models (LLMs) like ChatGPT acheive state-of-the-art performance, because there are a lot of reasoning tasks which can be easily formalized with human language inputs and human language outputs. These include some medical tasks, including responding to health questions on [social media](https://each.international/wp-content/uploads/2023/05/jamainternal_ayers_2023_oi_230030_1681999216.70842.pdf) and even obtaining a passing grade on a practice versions of the [United States Medical Licensing Examination](https://arxiv.org/pdf/2303.13375.pdf).
 
+Medical diagnosis is an obvious candidate language-to-language task for LLMs to solve. When you go to the doctor you tell her in “plain English” what’s wrong. After some probing questions, some examination, and some expert-level thinking, she tells you in “plain English” what you need to do to feel better. Simple, right?
 
+{{< figure src="featured.png" title="Medical Diagnosis as a language-to-language task." >}}
+
+Perhaps, in theory. However, in practice there are some issues. For the purpose of my discussion, medical diagnosis is the task which takes as input a patient’s medical history, symptoms, and relevant experiences in the form of human language and outputs a treatment plan and diagnosis in human language. This is the simplest possible form of the task that care-providers perform yet, as we’ll see, it is a far too complicated for even the very best of our current LLMs.
+
+# Part 2: The Problem(s)
+
+## Problem 1: Unexpected Outputs
+
+Perhaps the most famous problem with LLMs generally is their tendency to give responses that are off-topic. The term *hallucination* comes from the field of machine translation, i.e. the task which takes a text in language A as input and outputs a translation of the text in language B. In the task of machine translation, a model output contains a hallucination if anything appears in the translated text without appearing in the input text (see [here](https://research.google/pubs/pub51844/)). This term has evolved to mean any model output that is out-of-context, nonsensical, or — especially relevant for our discussion —  unsuported by provided evidence.
+
+In the context of medical diagnosis, hallucinations are particulary dangerous. For vanilla LLMs asked to perform the diagnosis task, this would include a) the tendency of the model to respond to symptoms not present in the patient’s input, b) model outputs which include impossible instructions or obviously wrong medications, and c) seemingly-correct model advice which is unsuported by provided medical literature. The last problem is particularly potent because LLMs have a propensity to sound confident, even when they are wrong. Patients who receive these types of hallucinated medical diagnoses would be vulnerable to dangerous side effects of medication non-adherence and undiagnosed illness.
+
+While work has been done to [stem the tide of hallucinations in LLMs](https://arxiv.org/pdf/2307.03987.pdf), the reality is that current LLMs — even those which have been [trained to attend to specific evidence](https://arxiv.org/pdf/2104.07567.pdf) — have little control over this phenomena compared to human expert. That alone is reason enough to stop the train of medical diagnosis via LLMs. We have no idea what this type of error would lead to in a deployed diagnosis model setting because this type of problem likely almost never exists with trained medical professionals.
+
+## Problem 2: LLMs Are Too Nice
+
+Part of the long-term scientific contribution of ChatGPT was the realization that the standard language modeling objective could be jointly learned with another objective: to give people the answers they want, whenever possible. The process of teaching an LLM to give outputs which are helpful for humans is called reinforcement learning with human feedback, and it essentially involves humans scoring LLM responses based on how helpful they are across a number of human values like “helpfulness” and “harmlessness.” While there's a lot of work being done on LLM alignment, or the task of aligning the outputs of an LLM with ideal human values, it is in [no way a solved task](https://arxiv.org/pdf/2307.12966.pdf).
+
+Human care providers do a lot of hard, emotional work, which sometimes includes convincing their patients that they need to change their lifestyles. Current training objectives of LLMs simply do not align with this type of care.
+
+## Problem 3: Bad Actors
+
+Not all users of your hypothetical medical diagnosis tool are going to be nice people with good intentions. LLMs trained with the objective of being helpful to the person behind the prompt are notoriously, erm, generous.
 
 {{< youtube HluANRwPyNo >}}
 
