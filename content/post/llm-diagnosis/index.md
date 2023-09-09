@@ -83,4 +83,14 @@ Not all users of your hypothetical medical diagnosis tool are going to be nice p
 
 {{< tweet 1687569252210065409 >}}
 
+To put it bluntly, LLMs are far more susceptible to intentional misuse than human care-providers. If you ask your doctor to honk in-between words, she will laugh at your joke. If you ask your diagnosis tool to honk in-between words and claim it is a medical necessity, it will probably do it.
 
+If you ask your doctor for a morphine prescription, she will make an expertly-informed decision with your short-term and long-term health in mind. If you ask your diagnosis tool for a morphine prescription and claim it is a medical necessity… You get the idea.
+
+# Part 3: What's Next
+
+Hopefully the problems I’ve described here have convinced you that current LLM technology is poorly suited for the medical diagnosis problem. There are myriad other problems that I haven’t discussed, such as our initial questionable assumption that medical diagnosis can even be appropriately approximated as a text input/text output task.
+
+The reality is that any medical diagnosis tool based on recent LLM technology will fail to reliably replicate or approximate human-centered work forces. While work is still being done to mitigate the types of problems I’ve discussed here, there is a hype cycle in progress and we run the risk of damaging the current system in favor of a worse, cheaper system.
+
+What are the solutions, you ask? I'm not sure. Textual anomaly detection, the task of recognizing never-before-seen or semantically-outlying LLM outputs (or inputs) is an intriguing task which could be useful for finding both unexpected outputs and bad actors. However, current approaches to AD lack proper real-world evaluation, in my opinion, especially in the context of deployed LLMs. Progress in LLMs for knowledge-intensive tasks like medical diagnosis will almost certainly be multi-tiered, however. If there were a one-idea-fits-all-problems solution, it’d be done by now. I believe in the power and value of language processing techniques — I’m just hoping that more influential people are able to force themselves to be more skeptical, like me.
