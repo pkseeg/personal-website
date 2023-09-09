@@ -81,6 +81,6 @@ Human care providers do a lot of hard, emotional work, which sometimes includes 
 
 Not all users of your hypothetical medical diagnosis tool are going to be nice people with good intentions. LLMs trained with the objective of being helpful to the person behind the prompt are notoriously, erm, generous.
 
-{{< youtube HluANRwPyNo >}}
+{{< tweet 1687569252210065409 >}}
 
 
