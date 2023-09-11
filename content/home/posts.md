@@ -11,7 +11,7 @@ active: true
 # Order that this section appears on the page.
 weight: 39
 
-title: Posts
+title: Blog
 subtitle:
 
 content:
