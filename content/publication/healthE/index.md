@@ -93,7 +93,7 @@ We began by scraping over 30,000 candidate advice statements from four reputable
 
 The final HealthE dataset contains 3,400 health advice statements, each annotated for six entity types: Food/Nutrient, Disease/Condition, Medicine/Supplement/Treatment, Exercise, Vitals/Physiological Status, and Other. The entity annotation process was carried out by a team of 14 computational health researchers, ensuring the quality and accuracy of the dataset. Of the 13,989 labeled entity instances, 5,418 entities are unique, with the Medicine/Supplement/Treatment class having the highest number of unique entities.
 
-[insert fig 2]
+{{< figure src="healthe_figure2.png" title="Entity Distribution in HealthE" >}}
 
 The HealthE dataset is a comprehensive resource for health entity recognition, designed specifically for online health communities and patient-centric information systems.
 
@@ -105,7 +105,7 @@ To facilitate future research using HealthE, we benchmark both the Health Advice
 
 We evalaute classification by using two statistical text vectorization models and three transformer-based models. The transformer models, DistilBERT, BERT, and DeBERTa-v3, represent a diverse set of state-of-the-art models for large language model fine-tuning. Interestingly, all models performed well on HAC, with DeBERTa-v3 showing the best performance. However, even the lightweight models like TFIDF+RF achieved high F1 scores, indicating that simple statistical models can perform similarly to transformer models on HAC.
 
-[insert screenshot of table 3]
+{{< figure src="healthe_table3.png" title="Health Advice Classification Performance" >}}
 
 ## Health Entity Recognition
 
@@ -113,7 +113,7 @@ We also investigated the capacity of five popular HER models to classify the Hea
 
 On the contrary, our end-to-end (E2E) HER models performed reasonably well across all classes except 'Other'. DeBERTa-v3 showed the best performance, with a macro F1 score of 0.59 across all classes. These findings highlight the usefulness of HER annotations in HealthE while showcasing the lack of domain transfer from biomedical entity recognition to HER.
 
-[screenshot of table 2]
+{{< figure src="healthe_table2.png" title="Health Entity Recognition Performance" >}}
 
 # Why it Matters
 
