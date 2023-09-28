@@ -93,7 +93,7 @@ We began by scraping over 30,000 candidate advice statements from four reputable
 
 The final HealthE dataset contains 3,400 health advice statements, each annotated for six entity types: Food/Nutrient, Disease/Condition, Medicine/Supplement/Treatment, Exercise, Vitals/Physiological Status, and Other. The entity annotation process was carried out by a team of 14 computational health researchers, ensuring the quality and accuracy of the dataset. Of the 13,989 labeled entity instances, 5,418 entities are unique, with the Medicine/Supplement/Treatment class having the highest number of unique entities.
 
-{{< figure src="healthe_figure2.png" title="Entity Distribution in HealthE" >}}
+{{< figure src="featured.png" title="Entity Distribution in HealthE" >}}
 
 The HealthE dataset is a comprehensive resource for health entity recognition, designed specifically for online health communities and patient-centric information systems.
 
