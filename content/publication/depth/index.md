@@ -27,8 +27,8 @@ publishDate: "2022-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: EMNLP 2023
-publication_short: EMNLP
+publication: The 2023 Conference on Empirical Methods in Natural Language Processing
+publication_short: EMNLP 2023
 
 abstract: A statistical tool for measuring and comparing distributions of transformer-based text embeddings.
 

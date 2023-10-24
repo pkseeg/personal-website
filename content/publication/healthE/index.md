@@ -31,7 +31,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: 2023 Proceedings of the International AAAI Conference on Web and Social Media
-publication_short: ICWSM
+publication_short: ICWSM 2023
 
 # abstract: 
 

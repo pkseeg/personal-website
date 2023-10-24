@@ -30,7 +30,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: 2022 JMIR Medical Informatics
-publication_short: JMIR
+publication_short: JMIR 2022
 
 abstract: Triage of textual telemedical queries is a safety-critical task for medical service providers with limited remote health resources. The prioritization of patient queries containing medically severe text is necessary to optimize resource usage and provide care to those with time-sensitive needs.
 

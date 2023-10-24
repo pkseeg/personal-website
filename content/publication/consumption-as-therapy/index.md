@@ -30,7 +30,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: 2022 American Marketing Association Winter Academic Conference
-publication_short: In *AMA*
+publication_short: AMA 2022
 
 abstract: A life-threatening organism has created stress around the globe. Across four countries, we explore coping with stress through consumption. This research provides insight about changes in stress over time, country factors, consumer sentiment, coping activities, types of goods purchased and spending pattern effects on stress and optimism for the future. 
 
