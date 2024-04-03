@@ -72,4 +72,4 @@ highlight_name: false
 
 Hi! I’m Parker. I'm a third year PhD student in the [Persist Lab](https://persist-lab.github.io/publications/) at the [Dartmouth College Department of Computer Science](https://web.cs.dartmouth.edu/) and an Innovation Program Fellow in the [Dartmouth PhD Innovation Program](https://graduate.dartmouth.edu/academics/programs/phd-innovation-program-dartmouth). My PhD research so far has been at the intersection of deep learning, natural language processing, and statistics. I am particularly interested in in-context learning, structured information extraction, and statistical tools for evaluating and guiding large language models.
 
-In addition to my research interests, I have a strong history in data science, sports (basketball/tennis/football) analytics, and teaching. I also love cats, I'm an avid fan of the apex legends global series, and I eat one kiwi every day!
+In addition to my research interests, I have a strong history in data science, sports (basketball/tennis/football) analytics, and teaching. I also love cats, and I eat one kiwi every day!
