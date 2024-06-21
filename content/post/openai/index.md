@@ -15,7 +15,7 @@ date: "2024-06-10T00:00:00Z"
 lastmod: "2024-06-10T00:00:00Z"
 
 # Is this an unpublished draft?
-draft: false
+draft: true
 
 # Show this page in the Featured widget?
 featured: false
@@ -39,6 +39,17 @@ tags:
 categories:
 - blog
 ---
+
+Overall Structure
+-----------------
+* Talk about the event and the goals of the event
+  * First hour was a discussion with a non-technical moderator
+  * Second hour was a discussion with a handful of AI-focused Dartmouth faculty and graduate students, including me
+* The Ability to Say Nothing in a 5-Minute Response
+  * The CTO didn't do a great job explaining her
+* Riding The AI Hype Cycle
+  * The solution to every presented problem was "AI will help us with that"
+
 
 Here are my thoughts post-visit with Mira Murati (OpenAI CTO)
 
