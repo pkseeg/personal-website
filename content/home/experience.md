@@ -34,6 +34,16 @@ experience:
   #       * CS 30 Discrete Mathematics in Computer Science (Winter 2022, Dr. Hsien-Chih Chang)
   #       * CS 74/274 Machine Learning and Statistical Data Analysis (Spring 2022, Dr. Sarah Masud Preum)
 
+  - title: Applied Science Intern
+    company: Amazon
+    company_url: 'https://www.amazon.science/tag/large-language-models'
+    company_logo: amazon-logo
+    location: Sunnyvale, CA
+    date_start: '2024-08-26'
+    date_end: ''
+    description: |2-
+        * Incoming
+  
   - title: Data Science Intern
     company: Aetna, a CVS Health Company
     company_url: 'https://www.aetna.com/'

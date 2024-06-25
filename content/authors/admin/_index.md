@@ -6,12 +6,14 @@ title: Parker Seegmiller
 superuser: true
 
 # Role/position/tagline
-role: Computer Science PhD Student, Dartmouth College
+role: Innovation Fellow, PhD Candidate @ Dartmouth CS | Applied Science Intern @ Amazon
 
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: Dartmouth CS
   url: https://web.cs.dartmouth.edu/
+- name: Amazon
+  url: https://www.amazon.science/tag/large-language-models
 
 # Short bio (displayed in user profile at end of posts)
 bio: nlp @ dartmouth college
@@ -21,7 +23,7 @@ interests:
 - NLP
 - Statistics
 - ML
-- Sports Analytics (basketball/tennis/football)
+- Sports Analytics
 - Business Management
 - Skyrim
 
@@ -70,6 +72,8 @@ email: ""
 highlight_name: false
 ---
 
-Hi! I’m Parker. I'm a third year PhD student in the [Persist Lab](https://persist-lab.github.io/publications/) at the [Dartmouth College Department of Computer Science](https://web.cs.dartmouth.edu/) and an Innovation Program Fellow in the [Dartmouth PhD Innovation Program](https://graduate.dartmouth.edu/academics/programs/phd-innovation-program-dartmouth). My PhD research so far has been at the intersection of deep learning, natural language processing, and statistics. I am particularly interested in in-context learning, structured information extraction, and statistical tools for evaluating and guiding large language models.
+Hi! I’m Parker. I'm a third year PhD student in the [Persist Lab](https://persist-lab.github.io/publications/) at the [Dartmouth College Department of Computer Science](https://web.cs.dartmouth.edu/) and an Innovation Program Fellow in the [Dartmouth PhD Innovation Program](https://graduate.dartmouth.edu/academics/programs/phd-innovation-program-dartmouth). I'm also an incoming Applied Science Intern at [Amazon](https://www.amazon.science/tag/large-language-models). 
+
+My research so far has been at the intersection of deep learning, natural language processing, and statistics. I am particularly interested in in-context learning, structured information extraction, and statistical tools for evaluating and guiding large language models.
 
 In addition to my research interests, I have a strong history in data science, sports (basketball/tennis/football) analytics, and teaching. I also love cats, I believe video games are good for the soul, and I eat one full kiwi (with skin!) every day.
