@@ -43,23 +43,23 @@ experience:
     date_end: ''
     description: |2-
         * Incoming
-
+  
   - title: PhD Candidate
-   company: Dartmouth CS Dept
-   company_url: 'https://web.cs.dartmouth.edu/'
-   company_logo: dartmouth-logo
-   location: New Hampshire
-   date_start: '2021-09-01'
-   date_end: ''
-   description: |2-
-       * Research: language model evaluation, text embedding distributions, semantic information processing
-       * Teaching: machine learning, discrete math, android programming
+    company: Dartmouth CS Dept
+    company_url: 'https://web.cs.dartmouth.edu/'
+    company_logo: dartmouth-logo
+    location: Hanover, New Hampshire
+    date_start: '2021-09-01'
+    date_end: ''
+    description: |2-
+        * Research: language model evaluation, text embedding distributions, semantic information processing
+        * Teaching: machine learning, discrete math, android programming
   
   - title: Data Science Intern
     company: Aetna, a CVS Health Company
     company_url: 'https://www.aetna.com/'
     company_logo: aetna-logo
-    location: Remote
+    location: New York City, NY
     date_start: '2020-06-01'
     date_end: '2020-08-30'
     description: |2-
@@ -68,76 +68,15 @@ experience:
         * Engineered 100+ features for abusive upcoding model
 
  - title: Undergraduate Student
-   company: BYU Statistics Dept
-   company_url: 'https://cs.byu.edu/'
-   company_logo: byu-logo
-   location: Utah
-   date_start: '2017-01-01'
-   date_end: '2021-04-25'
-   description: |2-
-       * Research Assistant: tennis analytics, marketing, url embeddings
-       * Teaching Assistant: probability, data science, hypothesis testing, linear regression
-
-  # - title: Research Assistant
-  #   company: BYU CS Dept
-  #   company_url: 'https://cs.byu.edu/'
-  #   company_logo: byu-logo
-  #   location: Utah
-  #   date_start: '2019-12-01'
-  #   date_end: '2020-12-25'
-  #   description: |2-
-  #       * Worked independently under Dr. Quinn Snell to build end-to-end neural network for classification of online news articles as “fake”
-  #       * Engineered unique features from news article URL, webpage metadata, and article body using custom-built word/character embeddings and NLP models
-  #       * Shipped model to flask server, built chrome extension for fake news article detection
-
-  # - title: Research Assistant
-  #   company: BYU Marketing Dept
-  #   company_url: 'https://marriottschool.byu.edu/mktg/'
-  #   company_logo: byu-logo
-  #   location: Utah
-  #   date_start: '2019-05-01'
-  #   date_end: '2020-05-01'
-  #   description: |2-
-  #       * Statistical researcher under Tamara Masters, Ph.D.
-  #       * Provided data modeling, analysis, insight, and creativity for 8+ research projects
-
-  # - title: CS Instructor
-  #   company: Juni Learning, Inc.
-  #   company_url: 'https://junilearning.com/'
-  #   company_logo: juni-logo
-  #   location: Remote
-  #   date_start: '2019-07-01'
-  #   date_end: '2021-09-01'
-  #   description: |2-
-  #       * Weekly mentored 20+ students aged 7-18 in Scratch, Python, and Java
-  #       * Trained 15+ students in common competitive programming algorithms and techniques, helping them to prepare for the USA Computing Olympiad bronze, silver, and gold divisions
-
-  # - title: Teaching Assistant
-  #   company: BYU Statistics Dept
-  #   company_url: 'https://statistics.byu.edu/'
-  #   company_logo: byu-logo
-  #   location: Utah
-  #   date_start: '2019-01-01'
-  #   date_end: '2019-12-25'
-  #   description: |2-
-  #       * Assisted Drs. Fellingham and Nielsen in teaching 3 large introductory statistics courses covering probability, hypothesis testing, linear regression, R programming, etc.
-  #       * Biweekly prepared and led lectures of 40+ students
-
-  # - title: Sports Analytics Research Assistant
-  #   company: BYU Statistics Dept
-  #   company_url: 'https://statistics.byu.edu/'
-  #   company_logo: byu-logo
-  #   location: Utah
-  #   date_start: '2018-09-01'
-  #   date_end: '2019-04-11'
-  #   description: |2-
-  #       * Collected, managed, and analyzed 5+ years of match data for BYU women’s and men’s tennis teams
-  #       * Led team of 11 interns in data collection, project ideation, and statistical analysis processes
-  #       * Built and presented player-specific probabilistic models of serving percentages by service position and point outcome, presenting research insights to head coaches
-
-
-
-
+    company: BYU Statistics Dept
+    company_url: 'https://cs.byu.edu/'
+    company_logo: byu-logo
+    location: Provo, Utah
+    date_start: '2017-01-01'
+    date_end: '2021-04-25'
+    description: |2-
+        * Research Assistant: tennis analytics, marketing, url embeddings
+        * Teaching Assistant: probability, data science, hypothesis testing, linear regression
 
 design:
   columns: '2'
