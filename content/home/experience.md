@@ -67,7 +67,7 @@ experience:
         * Presented original research for VP of Aetna, preparing web application for live model prediction
         * Engineered 100+ features for abusive upcoding model
 
- - title: Undergraduate Student
+  - title: Undergraduate Student
     company: BYU Statistics Dept
     company_url: 'https://cs.byu.edu/'
     company_logo: byu-logo
