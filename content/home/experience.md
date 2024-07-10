@@ -43,6 +43,17 @@ experience:
     date_end: ''
     description: |2-
         * Incoming
+
+  - title: PhD Candidate
+   company: Dartmouth CS Dept
+   company_url: 'https://web.cs.dartmouth.edu/'
+   company_logo: dartmouth-logo
+   location: New Hampshire
+   date_start: '2021-09-01'
+   date_end: ''
+   description: |2-
+       * Research: language model evaluation, text embedding distributions, semantic information processing
+       * Teaching: machine learning, discrete math, android programming
   
   - title: Data Science Intern
     company: Aetna, a CVS Health Company
@@ -56,16 +67,16 @@ experience:
         * Presented original research for VP of Aetna, preparing web application for live model prediction
         * Engineered 100+ features for abusive upcoding model
 
-  # - title: Teaching Assistant
-  #   company: BYU CS Dept
-  #   company_url: 'https://cs.byu.edu/'
-  #   company_logo: byu-logo
-  #   location: Utah
-  #   date_start: '2021-01-01'
-  #   date_end: '2021-04-25'
-  #   description: |2-
-  #       * Designed homework assignments and programming labs for a new Computer Science course, CS 201R Intro to Data Science
-  #       * Led weekly programming help sessions of up to 30 students
+ - title: Undergraduate Student
+   company: BYU Statistics Dept
+   company_url: 'https://cs.byu.edu/'
+   company_logo: byu-logo
+   location: Utah
+   date_start: '2017-01-01'
+   date_end: '2021-04-25'
+   description: |2-
+       * Research Assistant: tennis analytics, marketing, url embeddings
+       * Teaching Assistant: probability, data science, hypothesis testing, linear regression
 
   # - title: Research Assistant
   #   company: BYU CS Dept
