@@ -42,7 +42,7 @@ experience:
     date_start: '2024-08-26'
     date_end: ''
     description: |2-
-        * Incoming
+        * Research: Data synthesis for LLM math reasoning
   
   - title: PhD Candidate
     company: Dartmouth CS Dept
@@ -63,9 +63,8 @@ experience:
     date_start: '2020-06-01'
     date_end: '2020-08-30'
     description: |2-
-        * Personally developed machine learning model for predicting healthcare provider abusive upcoding on inpatient DRG claims, projected to save up to $1,000,000 each month via audit recommendations
-        * Presented original research for VP of Aetna, preparing web application for live model prediction
-        * Engineered 100+ features for abusive upcoding model
+        * Research: Abusive provider upcoding machine learning audit recommandation system
+        * Presented original research for VP of Aetna
 
   - title: Undergraduate Student
     company: BYU Statistics Dept
@@ -75,8 +74,8 @@ experience:
     date_start: '2017-01-01'
     date_end: '2021-04-25'
     description: |2-
-        * Research Assistant: tennis analytics, marketing, url embeddings
-        * Teaching Assistant: probability, data science, hypothesis testing, linear regression
+        * Research: tennis analytics, marketing, url embeddings
+        * Teaching: probability, data science, hypothesis testing, linear regression
 
 design:
   columns: '2'
