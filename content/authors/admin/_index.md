@@ -25,7 +25,6 @@ interests:
 - ML/DL
 - Sports Analytics
 - Business Management
-- Skyrim
 
 # Education to show in About widget
 education:
@@ -72,8 +71,8 @@ email: ""
 highlight_name: false
 ---
 
-Hi! I’m Parker. I'm a fourth year PhD student in the [Persist Lab](https://persist-lab.github.io/publications/) at the [Dartmouth College Department of Computer Science](https://web.cs.dartmouth.edu/) and an Innovation Program Fellow in the [Dartmouth PhD Innovation Program](https://graduate.dartmouth.edu/academics/programs/phd-innovation-program-dartmouth). I'm also currently an Applied Science Intern at [Amazon](https://www.amazon.science/tag/large-language-models), working on the Artifical General Intelligence team.
+I am a fifth year PhD student in the [Persist Lab](https://persist-lab.github.io/publications/) at the [Dartmouth College Department of Computer Science](https://web.cs.dartmouth.edu/) and an Innovation Program Fellow in the [Dartmouth PhD Innovation Program](https://graduate.dartmouth.edu/academics/programs/phd-innovation-program-dartmouth). I recently completed an Applied Science Internship at [Amazon](https://www.amazon.science/tag/large-language-models), working on the Artifical General Intelligence team, and I'll be back with that team soon.
 
-My research at Dartmouth and Amazon has been all things large language models! I'm particularly interested in statistical tools for LLM evaluations, semantic textual similarity/relatedness, and data synthesis. 
+My research at Dartmouth and Amazon has been focused in LLM post-training data synthesis, clinical NLP applications, and statistical tools for LLM evaluations. 
 
-In addition to my research interests, I have a strong history in data science, sports (basketball/tennis/football) analytics, and teaching. 
+In addition to my research interests, I have a strong history in data science, sports (basketball/tennis/football) analytics, and teaching.
