@@ -1,11 +1,15 @@
 ---
-title: "EMNLP 2023: Statistical Depth for Ranking and Characterizing Transformer-Based Text Embeddings"
+title: "ACL 2025: Follow-up Question Generation For Enhanced Patient-Provider Conversations"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
+- Joseph Gatto
 - admin
+- Timothy Burdick
+- Inas S Khayal
+- Sarah DeLozier
 - Sarah Masud Preum
 
 
@@ -14,11 +18,11 @@ authors:
 #- "Equal contribution"
 #- "Equal contribution"
 
-date: "2023-12-06T00:00:00Z"
+date: "2025-03-21T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-01-01T00:00:00Z"
+publishDate: "2025-03-21T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -27,10 +31,10 @@ publishDate: "2022-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: The 2023 Conference on Empirical Methods in Natural Language Processing
-publication_short: EMNLP 2023
+publication: The 63rd Annual Meeting of the Association for Computational Linguistics
+publication_short: ACL 2025
 
-abstract: A statistical tool for measuring and comparing distributions of transformer-based text embeddings.
+abstract: Generating follow-up questions to secure patient portal messages.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -45,8 +49,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://aclanthology.org/2023.emnlp-main.596/'
-url_code: 'https://github.com/pkseeg/tte_depth'
+url_pdf: 'https://arxiv.org/pdf/2503.17509?'
+url_code: 'https://huggingface.co/datasets/PortalPal-AI/Followup-Q'
 url_dataset: ''
 url_poster: ''
 url_project: ''
