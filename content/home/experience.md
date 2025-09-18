@@ -54,6 +54,7 @@ experience:
     description: |2-
         * Research: language model evaluation, text embedding distributions, semantic information processing
         * Teaching: machine learning, discrete math, android programming
+        * Mentees: [Garrett Johnston](https://www.linkedin.com/in/garrettmjohnston/)
   
   - title: Data Science Intern
     company: Aetna, a CVS Health Company
