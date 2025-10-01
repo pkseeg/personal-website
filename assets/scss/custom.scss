@@ -134,6 +134,13 @@ a {
   margin-bottom: 1rem;
 }
 
+/* Style alternating sections */
+.home-section:nth-of-type(even) {
+  background: var(--win95-beige);
+  border: none;
+  box-shadow: none;
+}
+
 /* Style the main content area */
 .page-wrapper {
   background: var(--win95-beige);
@@ -148,6 +155,15 @@ input, textarea, select {
               inset 1px 1px var(--win95-black);
   border-radius: 0;
   padding: 0.5em;
+}
+
+/* Style widget backgrounds */
+.experience .card-body,
+.pub-list-item,
+.article-widget,
+.people-widget,
+.featurette-icon {
+  background: transparent !important;
 }
 
 /* Add some fun details */
