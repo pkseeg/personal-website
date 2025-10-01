@@ -1,0 +1,74 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=VT323&display=swap');
+
+/* Apply retro fonts */
+body {
+  font-family: 'Space Mono', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'VT323', monospace;
+}
+
+/* Add some retro styling */
+.navbar {
+  font-family: 'VT323', monospace;
+  font-size: 1.2em;
+}
+
+.article-title {
+  font-family: 'VT323', monospace;
+  font-size: 2.5em;
+}
+
+/* Add a subtle scanline effect to headers */
+h1::after, h2::after, h3::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    currentColor,
+    currentColor 2px,
+    transparent 2px,
+    transparent 4px
+  );
+  opacity: 0.3;
+  margin-top: 0.2em;
+}
+
+/* Style links with a retro feel */
+a {
+  text-decoration: none;
+  position: relative;
+  
+  &:hover {
+    color: #00ff00;
+    text-shadow: 2px 2px 0px rgba(0,255,0,0.2);
+  }
+}
+
+/* Add a retro box style to cards and sections */
+.card {
+  border: 2px solid currentColor;
+  border-radius: 0;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.2);
+}
+
+/* Make buttons more retro */
+.btn {
+  border-radius: 0;
+  border: 2px solid currentColor;
+  box-shadow: 3px 3px 0 rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+  
+  &:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 rgba(0,0,0,0.2);
+  }
+  
+  &:active {
+    transform: translate(0, 0);
+    box-shadow: none;
+  }
+}
