@@ -126,7 +126,10 @@ a {
 
 /* Add beveled edges to sections */
 .home-section {
-  background: var(--win95-beige);
+  background: var(--win95-grey);
+  border: 2px solid var(--win95-dark-grey);
+  box-shadow: inset 1px 1px var(--win95-white),
+              inset -1px -1px var(--win95-black);
   padding: 1rem;
   margin-bottom: 1rem;
 }
@@ -139,7 +142,7 @@ a {
 
 /* Style form elements */
 input, textarea, select {
-  background: var(--win95-white);
+  background: var(--win95-beige);
   border: 2px solid var(--win95-dark-grey);
   box-shadow: inset -1px -1px var(--win95-white),
               inset 1px 1px var(--win95-black);
