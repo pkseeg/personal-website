@@ -13,15 +13,31 @@
   --win95-black: #000000;
 }
 
+/* Force light theme */
+[data-theme="dark"] {
+  --win95-grey: #c0c0c0 !important;
+  --win95-dark-grey: #808080 !important;
+  --win95-light-grey: #dfdfdf !important;
+  --win95-blue: #000080 !important;
+  --win95-cyan: #008080 !important;
+  --win95-beige: #ece9d8 !important;
+  --win95-white: #ffffff !important;
+  --win95-black: #000000 !important;
+  
+  background-color: var(--win95-beige) !important;
+  color: var(--win95-black) !important;
+}
+
 /* Apply retro fonts and base styles */
 body {
-  font-family: 'Space Mono', monospace;
+  font-family: 'VT323', monospace !important;
   background-color: var(--win95-beige);
+  color: var(--win95-black);
 }
 
 /* Windows 95 style navbar */
 .navbar {
-  font-family: 'VT323', monospace;
+  font-family: 'Space Mono', monospace !important;
   font-size: 1.2em;
   background: var(--win95-grey);
   border-bottom: 2px solid var(--win95-dark-grey);
@@ -29,10 +45,25 @@ body {
 }
 
 /* Retro headings */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'VT323', monospace;
+h1, h2, h3, h4, h5, h6,
+.section-heading h1,
+.article-title,
+.navbar-brand,
+.card-title,
+.page-heading {
+  font-family: 'Space Mono', monospace !important;
   color: var(--win95-blue);
   text-shadow: 1px 1px var(--win95-white);
+}
+
+/* Ensure consistent fonts across other elements */
+p, div, span, li, a:not(.navbar-brand):not(.nav-link) {
+  font-family: 'VT323', monospace !important;
+}
+
+/* Preserve Space Mono for navigation elements */
+.navbar .nav-link {
+  font-family: 'Space Mono', monospace !important;
 }
 
 /* Windows 95 style cards */
