@@ -71,8 +71,8 @@ email: ""
 highlight_name: false
 ---
 
-I am a fifth year PhD student in the [Persist Lab](https://persist-lab.github.io/publications/) at the [Dartmouth College Department of Computer Science](https://web.cs.dartmouth.edu/) and an Innovation Program Fellow in the [Dartmouth PhD Innovation Program](https://graduate.dartmouth.edu/academics/programs/phd-innovation-program-dartmouth). I recently completed an Applied Science Internship at [Amazon](https://www.amazon.science/tag/large-language-models), working on the Amazon Nova model family with the Artifical General Intelligence team, and I'll be returning for another internship later this year.
+I am a fifth year PhD student in the [Persist Lab](https://persist-lab.github.io/publications/) at the [Dartmouth College Department of Computer Science](https://web.cs.dartmouth.edu/) and an Innovation Program Fellow in the [Dartmouth PhD Innovation Program](https://graduate.dartmouth.edu/academics/programs/phd-innovation-program-dartmouth). I recently completed an Applied Science Internship at [Amazon](https://www.amazon.science/tag/large-language-models), working on the Amazon Nova model family with the Artifical General Intelligence team.
 
-My research at Dartmouth and Amazon has been focused in LLM post-training data synthesis, clinical NLP applications, and statistical tools for LLM evaluations. 
+My research at Dartmouth and Amazon has been focused in LLM post-training data synthesis, clinical LLM applications, and statistical tools for LLM evaluations. 
 
 In addition to my research interests, I have a strong history in data science, sports (basketball/tennis/football) analytics, and teaching.
